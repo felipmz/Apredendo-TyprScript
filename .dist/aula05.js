@@ -1,0 +1,10 @@
+"use strict";
+let cursos = ["JS", "TS", "JAVA", "C+"];
+let numeros = [1, 2, 3, 4, 5];
+let vDoisTipos;
+vDoisTipos = "Felipe";
+cursos.push("Cubo magico");
+numeros.push(2);
+console.log(cursos);
+console.log(numeros);
+console.log(vDoisTipos);

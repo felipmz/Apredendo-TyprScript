@@ -1,0 +1,11 @@
+"use strict";
+let valor;
+let avalor;
+let bvalor;
+avalor = "56";
+bvalor = 10;
+//valor =<number> bvalor;
+valor = Number.parseFloat(avalor);
+bvalor = valor.toString();
+console.log(typeof (bvalor));
+console.log(bvalor);
