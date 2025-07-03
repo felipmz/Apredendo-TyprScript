@@ -14,8 +14,6 @@ const somad= (n1:number,n2:number):number=>{
 }
 
 console.log(somad(2,3));*/
-
-
 //soma ods numeros dos arrays
 const lista = (ListNums = numList) => {
     let soma = 0;
