@@ -1,3 +1,4 @@
+"use strict";
 /*class Animal{
     private temPelo: boolean = false;
     private peso: number = 0;
@@ -62,4 +63,4 @@ class Canino extends Animal{
 
 }
 
-const a1 = new Ave(false,12,false);*/
+const a1 = new Ave(false,12,false);*/ 

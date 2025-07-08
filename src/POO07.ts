@@ -1,4 +1,4 @@
-/*class Animal{
+/*abstract class Animal{
     private temPelo: boolean = false;
     private peso: number = 0;
     private mamifero:boolean = false;
@@ -7,8 +7,6 @@
         this.temPelo = pelo;
         this.peso = peso;
         this.mamifero = mami;
-
-        console.log();
     }
 
     public get temPolo():boolean{
@@ -37,6 +35,13 @@ class Ave extends Animal{
     private corBico:string = "";
 
 
+    constructor (temasa:number,corbico:string,pelo:boolean,peso:number,mami:boolean){
+
+        super(pelo,peso,mami);
+        this.tamAsa = temasa;
+        this.corBico = corbico;
+
+    }
 
      public set teamA(tam:number){
         this.tamAsa = tam;
@@ -58,8 +63,12 @@ class Canino extends Animal{
     private domestico: boolean = false;
     private tmaDente: number = 0;
 
-
+    
 
 }
 
-const a1 = new Ave(false,12,false);*/
+const a1 = new Ave(2,"red",false,23,false);
+
+
+
+//const p1 = new Animal(false,34,false);*/
